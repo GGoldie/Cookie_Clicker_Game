@@ -1,6 +1,6 @@
 <<<<<<< HEAD
+# Cookie-Clicker-Game
+=======
 # Cookie-Clicker-simple-game
 Simple cookie clicker game written in python
-=======
-# Cookie-Clicker-Game
->>>>>>> b0feeef (Initial commit)
+>>>>>>> 59db78f (Initial commit)
