@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed2cafc0-673b-4095-8e52-29bdd3a69d5f" name="Changes" comment="v1.01&#10;&#10;Signed-off-by: GGoldie &lt;simontgsiddle@gmail.com&gt;">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/cookie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/mouse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/upgrade.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cookie_Clicker.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Cookie_Clicker.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/resources/bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/resources/cookie.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/resources/upgrade.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/cookie.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/upgrade.gif" beforeDir="false" />
+    <list default="true" id="ed2cafc0-673b-4095-8e52-29bdd3a69d5f" name="Changes" comment="v2.00&#10;&#10;Now in pygame!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640990665950</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="v2.00&#10;&#10;Now in pygame!">
+      <created>1641024046826</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1641024046826</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,6 +301,7 @@
     <MESSAGE value="v1.0" />
     <MESSAGE value="Hope this works" />
     <MESSAGE value="v1.01&#10;&#10;Signed-off-by: GGoldie &lt;simontgsiddle@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.01&#10;&#10;Signed-off-by: GGoldie &lt;simontgsiddle@gmail.com&gt;" />
+    <MESSAGE value="v2.00&#10;&#10;Now in pygame!" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.00&#10;&#10;Now in pygame!" />
   </component>
 </project>

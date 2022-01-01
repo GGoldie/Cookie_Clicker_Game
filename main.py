@@ -84,7 +84,6 @@ class Button():
 
 # Creates the cookie as an object of class Button with x, y, image, scale
 cookieButton = Button(CENTERx - 300, CENTERy + 50, COOKIE_IMAGE, 1)
-exitButton = Button(1550, 950, EXIT_IMAGE, 0.15)
 upgradeButton = Button(1550, 500, UPGRADE_IMAGE, 0.15)
 clickerButton = Button(1430, 800, CLICKER_IMAGE, 0.1)
 
@@ -187,8 +186,6 @@ def draw_window():
 
     if cookieButton.drawRotate(-0.5):
         cookieBalance = round((cookieBalance + cookiesPerClick), 2)
-    if exitButton.draw():
-        pygame.quit()
     if upgradeButton.draw():
         if cookieBalance >= upgradeCost:
             upgradesPurchased += 1
