@@ -49,10 +49,9 @@ class Button():
         self.rect.y = self.y - int(self.height / 2)
 
         pos = pygame.mouse.get_pos()
-        if self.rect.collidepoint(pos):
-            if pygame.mouse.get_pressed()[0] == 1 and self.clicked == False:
-                self.clicked = True
-                action = True
+        if self.rect.collidepoint(pos) and (pygame.mouse.get_pressed()[0] == 1 and not self.clicked):
+            self.clicked = True
+            action = True
 
         if pygame.mouse.get_pressed()[0] == 0:
             self.clicked = False
@@ -71,10 +70,9 @@ class Button():
         self.rect.y = self.y - int(self.height / 2)
 
         pos = pygame.mouse.get_pos()
-        if self.rect.collidepoint(pos):
-            if pygame.mouse.get_pressed()[0] == 1 and self.clicked == False:
-                self.clicked = True
-                action = True
+        if self.rect.collidepoint(pos) and (pygame.mouse.get_pressed()[0] == 1 and not self.clicked):
+            self.clicked = True
+            action = True
 
         if pygame.mouse.get_pressed()[0] == 0:
             self.clicked = False
@@ -186,14 +184,12 @@ def draw_window():
 
     if cookieButton.drawRotate(-0.5):
         cookieBalance = round((cookieBalance + cookiesPerClick), 2)
-    if upgradeButton.draw():
-        if cookieBalance >= upgradeCost:
-            upgradesPurchased += 1
-            cookieBalance = round((cookieBalance - upgradeCost), 2)
-    if clickerButton.draw():
-        if cookieBalance >= clickerCost:
-            clickersPurchased += 1
-            cookieBalance = round((cookieBalance - clickerCost), 2)
+    if upgradeButton.draw() and cookieBalance >= upgradeCost:
+        upgradesPurchased += 1
+        cookieBalance = round((cookieBalance - upgradeCost), 2)
+    if clickerButton.draw() and cookieBalance >= clickerCost:
+        clickersPurchased += 1
+        cookieBalance = round((cookieBalance - clickerCost), 2)
 
     pygame.display.update()
 
