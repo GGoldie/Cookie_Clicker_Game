@@ -106,7 +106,7 @@ def gameText():
     global cookiesPerClick
     global upgradeCost
 
-    cookieBalanceText = FONTbig.render("Cookies: " + str(cookieBalance), False, (0, 0, 0))
+    cookieBalanceText = FONTbig.render(f"Cookies:  {str(cookieBalance)}", False, (0, 0, 0))
     WIN.blit(cookieBalanceText, (215, 30))
 
     infoText1 = FONTxsmall.render("Click the cookie to bake cookies", False, (0, 0, 0))
@@ -121,31 +121,31 @@ def gameText():
     upgradesinfoText2 = FONTsmall.render("the amount of cookies per click", False, (0, 0, 0))
     WIN.blit(upgradesinfoText2, (718, 160))
 
-    upgradesPurchasedText = FONT.render("Upgrades Purchased: " + str(upgradesPurchased), False, (0, 0, 0))
+    upgradesPurchasedText = FONT.render(f"Upgrades Purchased: {str(upgradesPurchased)}", False, (0, 0, 0))
     WIN.blit(upgradesPurchasedText, (750, 250))
 
-    upgradeCostText = FONT.render("Cost to Purchase Upgrade: " + str(upgradeCost), False, (0, 0, 0))
+    upgradeCostText = FONT.render(f"Cost to Purchase Upgrade: {str(upgradeCost)}", False, (0, 0, 0))
     WIN.blit(upgradeCostText, (720, 190))
 
-    clickerCostText = FONT.render("Cost to Purchase Clicker: " + str(clickerCost), False, (0, 0, 0))
+    clickerCostText = FONT.render(f"Cost to Purchase Clicker: {str(clickerCost)}", False, (0, 0, 0))
     WIN.blit(clickerCostText, (720, 460))
 
-    clickersinfoText1 = FONTsmall.render("Purchase clicker to auto click", False, (0, 0, 0))
+    clickersinfoText1 = FONTsmall.render("Purchase clickers to auto click", False, (0, 0, 0))
     WIN.blit(clickersinfoText1, (720, 400))
 
-    clickersinfoText2 = FONTsmall.render("cookies for you ever second", False, (0, 0, 0))
+    clickersinfoText2 = FONTsmall.render("cookies for you every second", False, (0, 0, 0))
     WIN.blit(clickersinfoText2, (718, 430))
 
-    highScoreText = FONT.render("High Score: " + str(highScore), False, (0, 0, 0))
+    highScoreText = FONT.render(f"High Score: {str(highScore)}", False, (0, 0, 0))
     WIN.blit(highScoreText, (10, 685))
 
-    clickersPurchasedText = FONT.render("Clickers Purchased: " + str(clickersPurchased), False, (0, 0, 0))
+    clickersPurchasedText = FONT.render(f"Clickers Purchased: {str(clickersPurchased)}", False, (0, 0, 0))
     WIN.blit(clickersPurchasedText, (750, 540))
 
-    cpsText = FONTsmall.render("Cookies Per Second: " + str(cps), False, (0, 0, 0))
+    cpsText = FONTsmall.render(f"Cookies Per Second: {str(cps)}", False, (0, 0, 0))
     WIN.blit(cpsText, (200, 150))
 
-    cookiesPerClickText = FONTsmall.render("Cookies Per Click: " + str(cookiesPerClick), False, (0, 0, 0))
+    cookiesPerClickText = FONTsmall.render(f"Cookies Per Click: {str(cookiesPerClick)}", False, (0, 0, 0))
     WIN.blit(cookiesPerClickText, (215, 100))
 
 

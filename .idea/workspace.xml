@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed2cafc0-673b-4095-8e52-29bdd3a69d5f" name="Changes" comment="v2.01&#10;&#10;Now in pygame!">
+    <list default="true" id="ed2cafc0-673b-4095-8e52-29bdd3a69d5f" name="Changes" comment="v2.02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -58,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -303,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641079921223</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="v2.02">
+      <created>1641092334685</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1641092334686</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,6 +345,7 @@
     <MESSAGE value="v1.01&#10;&#10;Signed-off-by: GGoldie &lt;simontgsiddle@gmail.com&gt;" />
     <MESSAGE value="v2.00&#10;&#10;Now in pygame!" />
     <MESSAGE value="v2.01&#10;&#10;Now in pygame!" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2.01&#10;&#10;Now in pygame!" />
+    <MESSAGE value="v2.02" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.02" />
   </component>
 </project>
