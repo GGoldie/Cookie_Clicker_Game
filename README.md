@@ -13,11 +13,11 @@ Simple cookie clicker game written in python
 > Save and load function? 
 	- Write to and read from .txt file?
 
-> Seperate functions and classes into their own .py files
+> Separate functions and classes into their own .py files
 
 > Music and sound fx
 
 > Pause menu
 	- Save and quit, Options/settings, ?
 
-> 
+> Clicker upgrade
